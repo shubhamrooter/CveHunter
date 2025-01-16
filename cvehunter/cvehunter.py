@@ -38,7 +38,7 @@ def banner(output_file=None):
 ░           ░░     ░    ░  ░░ ░ ░░░ ░ ░    ░   ░ ░   ░         ░     ░░   ░ 
 ░ ░          ░     ░  ░ ░  ░  ░   ░              ░             ░  ░   ░     
 ░           ░                                                               
-                              {bold}{white} github:- @Shubhamrooter | Version: 1.0.0{reset}\n"""
+                {bold}{white} github:- @Shubhamrooter @mr-kasim-mehar| Version: 1.0.0{reset}\n"""
     panel = Panel.fit(
         banner_text,
         title="[bold blue]Welcome to CVE Hunter[/bold blue]",
