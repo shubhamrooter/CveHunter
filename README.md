@@ -102,4 +102,4 @@ Connect with Shubham via:
 ---
 **GitHub Repository**: [CVE Hunter](https://github.com/shubhamrooter/CveHunter)
 
-For queries or issues, contact **@Shubhamrooter** on GitHub. Special thanks to Kasim for the support
+For queries or issues, contact **@Shubhamrooter** on GitHub. Special thanks to @mr-kasim-mehar for the support
