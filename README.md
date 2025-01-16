@@ -14,16 +14,16 @@ CVE Hunter is a powerful and user-friendly tool for scanning domains or IP addre
 Follow these steps to install CVE Hunter:
 
 ```bash
-┌──(rooter㉿rooter)-[/tmp/CveHunter]
+┌──(rooter㉿rooter)-[/CveHunter]
 └─$ git clone https://github.com/shubhamrooter/CveHunter.git
 
 ┌──(rooter㉿rooter)-[/tmp/CveHunter]
 └─$ cd CveHunter
 
-┌──(rooter㉿rooter)-[/tmp/CveHunter]
+┌──(rooter㉿rooter)-[/CveHunter]
 └─$ chmod +x cvehunter/cvehunter.py
 
-┌──(rooter㉿rooter)-[/tmp/CveHunter]
+┌──(rooter㉿rooter)-[/CveHunter]
 └─$ pip install .
 ```
 
@@ -34,7 +34,7 @@ Once installed, use the following commands to run CVE Hunter:
 ### Basic Help Command
 
 ```bash
-┌──(rooter㉿rooter)-[/tmp/CveHunter/cvehunter]
+┌──(rooter㉿rooter)-[/cvehunter]
 └─$ cvehunter -h
 ```
 
@@ -80,12 +80,12 @@ options:
 
 ### Scan a Single Domain
 ```bash
-cvehunter -d example.com
+cvehunter -d example.com 
 ```
 
 ### Scan Multiple Domains from a File
 ```bash
-cvehunter -f domains.txt
+cvehunter -f domains.txt -o result.txt --export json
 ```
 
 ### Export Results to JSON
